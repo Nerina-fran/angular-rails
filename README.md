@@ -1,24 +1,23 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Modern Web App with Angular and Rails
 
 
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://flapper-news-trevoirwilliams.c9.io/).
-
-Happy coding!
-The Cloud9 IDE team
+The goal of this app is to demonstrate a Reddit/Hacker News clone using Rails 4 and AngularJS. 
 
 
-## Support & Documentation
+Project Specifications 
+Below is a basic list of things this application is able to do:
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Create new posts
+View all posts ordered by upvotes
+Add comments about a given post
+View comments for a given post
+Upvote posts and comments
+Create a user authentication system using Devise
+
+
+Prerequisites
+Node.js
+Rails
+Sqlite
+
+Project based on tutorial found at: https://thinkster.io/angular-rails/
