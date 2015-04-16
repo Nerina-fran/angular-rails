@@ -15,9 +15,6 @@ Upvote posts and comments
 Create a user authentication system using Devise
 
 
-Prerequisites
-Node.js
-Rails
-Sqlite
+Prerequisites: Node.js, Rails, Sqlite
 
 Project based on tutorial found at: https://thinkster.io/angular-rails/
