@@ -14,13 +14,20 @@ function($stateProvider, $urlRouterProvider) {
     .state('home', {
       url: '/home',
       templateUrl: 'home/_home.html',
-      resolve: postPromis:['posts', function(posts){
-        return posts.getAll();
-      }]
+      resolve: {
+        postPromis:['posts', function(posts){
+          return posts.getAll();
+        }]
+      },
       controller: 'MainCtrl'
     })
     .state('posts', {
       url: '/posts/{id}',
+      resolve: {
+        post: ['$stateParams', 'posts', function($stateParams, posts) {
+          return posts.get($stateParams.id);
+        }]
+      },
       templateUrl: 'posts/_posts.html',
       controller: 'PostsCtrl'
     });
